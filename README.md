@@ -87,8 +87,17 @@ intrinsic properties to determine feature relevance.
 ### Key Approaches and Algorithms
 ### Differentiable Unsupervised Feature Selection based on a Gated Laplacian
 [Paper](https://arxiv.org/pdf/2007.04728.pdf)
+
+This articale proposes a differentiable method for unsupervised feature selection, utilizing a gated
+Laplacian mechanism to enhance the selection process in the absence of labeled data.
+
 ### Deep Unsupervised Feature Selection by Discarding Nuisance and Correlated Features
 [Paper](https://arxiv.org/abs/2110.05306)
+
+This article tackles the challenge of filtering out nuisance and correlated features in datasets. This work
+proposes a differentiable method for unsupervised feature selection, utilizing the Laplacian
+score criterion and an autoencoder architecture to effectively manage feature selection.
+
 ## Interactive Examples and Notebooks
 
 - Jupyter Notebooks with Interactive Feature Selection Demonstrations
