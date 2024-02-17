@@ -8,9 +8,19 @@ Feature selection is a critical aspect of machine learning and data analysis, en
 
 ## :clipboard: Table of Contents
 
+- [Introduction](#bulb-introduction)
 - [Introduction to Feature Selection](#introduction-to-feature-selection)
+  - [Importance of Feature Selection in Machine Learning](#importance-of-feature-selection-in-machine-learning)
+  - [Overview of Feature Selection Techniques](#overview-of-feature-selection-techniques)
 - [Supervised Feature Selection Methods](#supervised-feature-selection-methods)
+  - [Overview](#overview)
+  - [Key Approaches and Algorithms](#key-approaches-and-algorithms)
+  - [Feature Selection Using Stochastic Gates](#feature-selection-using-stochastic-gates)
 - [Unsupervised Feature Selection Methods](#unsupervised-feature-selection-methods)
+  - [Overview](#overview-1)
+  - [Key Approaches and Algorithms](#key-approaches-and-algorithms-1)
+  - [Differentiable Unsupervised Feature Selection based on a Gated Laplacian](#differentiable-unsupervised-feature-selection-based-on-a-gated-laplacian)
+  - [Deep Unsupervised Feature Selection by Discarding Nuisance and Correlated Features](#deep-unsupervised-feature-selection-by-discarding-nuisance-and-correlated-features)
 - [Interactive Examples and Notebooks](#interactive-examples-and-notebooks)
 - [Community Engagement](#community-engagement)
 - [Usage](#hammer-usage)
@@ -19,18 +29,21 @@ Feature selection is a critical aspect of machine learning and data analysis, en
 
 ## Introduction to Feature Selection
 
-- Overview of Feature Selection Techniques
-- Importance of Feature Selection in Machine Learning
+### Importance of Feature Selection in Machine Learning
+### Overview of Feature Selection Techniques
 
 ## Supervised Feature Selection Methods
 
-- Feature Selection Using Stochastic Gates
-- LASSO Regression for Feature Selection
+### Overview
+### Key Approaches and Algorithms
+### Feature Selection Using Stochastic Gates
 
 ## Unsupervised Feature Selection Methods
 
-- Differentiable Unsupervised Feature Selection based on a Gated Laplacian
-- Deep Unsupervised Feature Selection by Discarding Nuisance and Correlated Features
+### Overview
+### Key Approaches and Algorithms
+### Differentiable Unsupervised Feature Selection based on a Gated Laplacian
+### Deep Unsupervised Feature Selection by Discarding Nuisance and Correlated Features
 
 ## Interactive Examples and Notebooks
 
