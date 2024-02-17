@@ -54,8 +54,9 @@ The proposed framework simultaneously learns either a nonlinear regression or cl
 ### Overview
 ### Key Approaches and Algorithms
 ### Differentiable Unsupervised Feature Selection based on a Gated Laplacian
+[Paper](https://arxiv.org/pdf/2007.04728.pdf)
 ### Deep Unsupervised Feature Selection by Discarding Nuisance and Correlated Features
-
+[Paper](https://arxiv.org/abs/2110.05306)
 ## Interactive Examples and Notebooks
 
 - Jupyter Notebooks with Interactive Feature Selection Demonstrations
@@ -75,9 +76,5 @@ The proposed framework simultaneously learns either a nonlinear regression or cl
 [Step-by-step instructions for setting up the necessary environment to use the resources provided by the learning hub, including any required software, libraries, or datasets.]
 
 ## :mag_right: Acknowledgements and References
-
-- [Feature Selection using Stochastic Gates](https://proceedings.icml.cc/static/paper_files/icml/2020/5085-Paper.pdf)
-- [Differentiable Unsupervised Feature Selection based on a Gated Laplacian](https://example.com)
-- [Deep Unsupervised Feature Selection by Discarding Nuisance and Correlated Features](https://example.com)
 
 [Acknowledgements to individuals, organizations, and any references used in the creation of this learning hub.]
