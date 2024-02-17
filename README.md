@@ -1,17 +1,17 @@
 # Feature Selection Learning Hub
 
-Welcome to the Feature Selection Learning Hub! This platform is dedicated to providing comprehensive resources and tutorials on feature selection techniques based on the research articles authored by Dr. Ofir Lindenbaum. Whether you're new to feature selection or looking to deepen your understanding, this hub is designed to support your learning journey.
+Welcome to the Feature Selection Learning Hub! This platform is dedicated to providing comprehensive resources and tutorials on feature selection techniques, based on the research articles from Dr. Ofir Lindenbaum's [research lab](https://www.eng.biu.ac.il/lindeno/). Whether you're new to feature selection or looking to deepen your understanding, this hub is designed to support your learning journey.
 
 ## :bulb: Introduction
 
-Feature selection is a critical aspect of machine learning and data analysis, enabling the identification of relevant features that contribute most to model performance. Dr. Ofir Lindenbaum's research articles offer innovative approaches and methodologies for feature selection, spanning both supervised and unsupervised learning domains. This learning hub serves as a central repository for exploring and implementing these techniques.
+Feature selection is a critical aspect of machine learning and data analysis, enabling the identification of relevant features that contribute most to model performance. The research articles produced by Dr. Ofir Lindenbaum's lab offer innovative approaches and methodologies for feature selection, spanning both supervised and unsupervised learning domains. This learning hub serves as a central repository for exploring and implementing these techniques, as well as examining known approaches and algorithms, enriching the understanding of the feature selection field.
 
 ## :clipboard: Table of Contents
 
 - [Introduction](#bulb-introduction)
 - [Introduction to Feature Selection](#introduction-to-feature-selection)
   - [Importance of Feature Selection in Machine Learning](#importance-of-feature-selection-in-machine-learning)
-  - [Overview of Feature Selection Techniques](#overview-of-feature-selection-techniques)
+  - [Categories of Feature Selection Methods](#categories-of-feature-selection-methods)
 - [Supervised Feature Selection Methods](#supervised-feature-selection-methods)
   - [Overview](#overview)
   - [Key Approaches and Algorithms](#key-approaches-and-algorithms)
@@ -30,11 +30,37 @@ Feature selection is a critical aspect of machine learning and data analysis, en
 ## Introduction to Feature Selection
 
 ### Importance of Feature Selection in Machine Learning
-### Overview of Feature Selection Techniques
+
+Feature selection, the process of identifying the most relevant features for a given model, is
+a fundamental task in both supervised and unsupervised learning. It aims to improve model
+accuracy, reduce overfitting, and enhance computational efficiency by eliminating irrelevant
+or redundant data. Effective feature selection not only simplifies models to make them more
+understandable but also minimizes the likelihood of performance decline caused by noise or
+unnecessary information.
+
+### Categories of Feature Selection Methods
+
+Feature selection methods can be broadly categorized into three groups: filter methods,
+wrapper methods, and embedded methods. Each category has its own approach to
+identifying relevant features, with varying degrees of complexity and computational
+demands.
+- **Filter Methods** aim to exclude irrelevant features before model training. They achieve
+this by evaluating the importance of each feature through statistical measures and
+then making informed selections.
+- **Wrapper Methods** assess subsets of features based on the performance of a model
+built with them, require recomputing the model for each subset of features and, thus,
+become computationally expensive, especially in the context of deep neural networks.
+- **Embedded Methods** aim to learn the model while simultaneously selecting the subset
+of relevant features.
 
 ## Supervised Feature Selection Methods
-
 ### Overview
+
+In supervised learning, feature selection is crucial for building robust models that generalize
+well to unseen data. By focusing on the most informative features that contribute to
+predicting the output variable, supervised feature selection methods help in enhancing model
+performance and interpretability. 
+
 ### Key Approaches and Algorithms
 ### Feature Selection Using Stochastic Gates (STG)
 [Project Page](https://runopti.github.io/stg/)|[Paper](https://proceedings.icml.cc/static/paper_files/icml/2020/5085-Paper.pdf)
@@ -52,6 +78,12 @@ The proposed framework simultaneously learns either a nonlinear regression or cl
 ## Unsupervised Feature Selection Methods
 
 ### Overview
+
+Unsupervised feature selection aims to identify features that capture the underlying structure
+of unlabeled data, facilitating tasks such as clustering, dimensionality reduction, and manifold
+learning. Without the guidance of a target variable, these methods must rely on the data's
+intrinsic properties to determine feature relevance.
+
 ### Key Approaches and Algorithms
 ### Differentiable Unsupervised Feature Selection based on a Gated Laplacian
 [Paper](https://arxiv.org/pdf/2007.04728.pdf)
