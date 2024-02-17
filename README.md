@@ -15,7 +15,7 @@ Feature selection is a critical aspect of machine learning and data analysis, en
 - [Supervised Feature Selection Methods](#supervised-feature-selection-methods)
   - [Overview](#overview)
   - [Key Approaches and Algorithms](#key-approaches-and-algorithms)
-  - [Feature Selection Using Stochastic Gates](#feature-selection-using-stochastic-gates)
+  - [Feature Selection Using Stochastic Gates](#feature-selection-using-stochastic-gates-stg)
 - [Unsupervised Feature Selection Methods](#unsupervised-feature-selection-methods)
   - [Overview](#overview-1)
   - [Key Approaches and Algorithms](#key-approaches-and-algorithms-1)
@@ -36,7 +36,18 @@ Feature selection is a critical aspect of machine learning and data analysis, en
 
 ### Overview
 ### Key Approaches and Algorithms
-### Feature Selection Using Stochastic Gates
+### Feature Selection Using Stochastic Gates (STG)
+[Project Page](https://runopti.github.io/stg/)|[Paper](https://proceedings.icml.cc/static/paper_files/icml/2020/5085-Paper.pdf)
+
+Feature Selection using Stochastic Gates (STG) is a method for feature selection in neural network estimation problems. 
+The new procedure is based on probabilistic relaxation of
+the l0 norm of features, or the count of the number of selected features.
+The proposed framework simultaneously learns either a nonlinear regression or classification function while selecting a small subset of features.
+
+|![stg_image](docs/assets/stg_figure1_left.png)|
+|:--:|
+|Top: Each stochastic gate z_d is drawn from the STG approximation of the Bernoulli distribution (shown as the blue histogram on the right). Specifically, z_d is obtained by applying the hard-sigmoid function to a mean-shifted Gaussian random variable. Bottom: The z_d stochastic gate is attached to the x_d input feature, where the trainable parameter µ_d controls the probability of the gate being active|
+
 
 ## Unsupervised Feature Selection Methods
 
