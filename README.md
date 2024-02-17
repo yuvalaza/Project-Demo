@@ -6,7 +6,7 @@ Welcome to the Feature Selection Learning Hub! This platform is dedicated to pro
 
 Feature selection is a critical aspect of machine learning and data analysis, enabling the identification of relevant features that contribute most to model performance. The research articles produced by Dr. Ofir Lindenbaum's lab offer innovative approaches and methodologies for feature selection, spanning both supervised and unsupervised learning domains. This learning hub serves as a central repository for exploring and implementing these techniques, as well as examining known approaches and algorithms, enriching the understanding of the feature selection field.
 
-## :clipboard: Table of Contents
+## :clipboard: Table of Content
 
 - [Introduction](#bulb-introduction)
 - [Introduction to Feature Selection](#introduction-to-feature-selection)
@@ -30,13 +30,16 @@ Feature selection is a critical aspect of machine learning and data analysis, en
 ## Introduction to Feature Selection
 
 ### Importance of Feature Selection in Machine Learning
-
+                                                                                                                                                                                
 Feature selection, the process of identifying the most relevant features for a given model, is
 a fundamental task in both supervised and unsupervised learning. It aims to improve model
 accuracy, reduce overfitting, and enhance computational efficiency by eliminating irrelevant
 or redundant data. Effective feature selection not only simplifies models to make them more
 understandable but also minimizes the likelihood of performance decline caused by noise or
 unnecessary information.
+
+
+
 
 ### Categories of Feature Selection Methods
 
@@ -53,7 +56,9 @@ become computationally expensive, especially in the context of deep neural netwo
 - **Embedded Methods** aim to learn the model while simultaneously selecting the subset
 of relevant features.
 
-## Supervised Feature Selection Methods
+[Back to Top](#clipboard-table-of-content)
+
+## Supervised Feature Selection Methods                                                                                                                        
 ### Overview
 
 In supervised learning, feature selection is crucial for building robust models that generalize
@@ -74,6 +79,7 @@ The proposed framework simultaneously learns either a nonlinear regression or cl
 |:--:|
 |Top: Each stochastic gate z_d is drawn from the STG approximation of the Bernoulli distribution (shown as the blue histogram on the right). Specifically, z_d is obtained by applying the hard-sigmoid function to a mean-shifted Gaussian random variable. Bottom: The z_d stochastic gate is attached to the x_d input feature, where the trainable parameter µ_d controls the probability of the gate being active|
 
+[Back to Top](#clipboard-table-of-content)
 
 ## Unsupervised Feature Selection Methods
 
@@ -98,6 +104,8 @@ This article tackles the challenge of filtering out nuisance and correlated feat
 proposes a differentiable method for unsupervised feature selection, utilizing the Laplacian
 score criterion and an autoencoder architecture to effectively manage feature selection.
 
+[Back to Top](#clipboard-table-of-content)
+
 ## Interactive Examples and Notebooks
 
 - Jupyter Notebooks with Interactive Feature Selection Demonstrations
@@ -119,3 +127,5 @@ score criterion and an autoencoder architecture to effectively manage feature se
 ## :mag_right: Acknowledgements and References
 
 [Acknowledgements to individuals, organizations, and any references used in the creation of this learning hub.]
+
+[Back to Top](#clipboard-table-of-content)
