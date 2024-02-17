@@ -8,26 +8,25 @@ Feature selection is a critical aspect of machine learning and data analysis, en
 
 ## :clipboard: Table of Content
 
-- [Introduction](#bulb-introduction)
-- [Introduction to Feature Selection](#introduction-to-feature-selection)
+- [Introduction to Feature Selection](#books-introduction-to-feature-selection)
   - [Importance of Feature Selection in Machine Learning](#importance-of-feature-selection-in-machine-learning)
   - [Categories of Feature Selection Methods](#categories-of-feature-selection-methods)
-- [Supervised Feature Selection Methods](#supervised-feature-selection-methods)
+- [Supervised Feature Selection Methods](#books-supervised-feature-selection-methods)
   - [Overview](#overview)
   - [Key Approaches and Algorithms](#key-approaches-and-algorithms)
   - [Feature Selection Using Stochastic Gates](#feature-selection-using-stochastic-gates-stg)
-- [Unsupervised Feature Selection Methods](#unsupervised-feature-selection-methods)
+- [Unsupervised Feature Selection Methods](#books-unsupervised-feature-selection-methods)
   - [Overview](#overview-1)
   - [Key Approaches and Algorithms](#key-approaches-and-algorithms-1)
   - [Differentiable Unsupervised Feature Selection based on a Gated Laplacian](#differentiable-unsupervised-feature-selection-based-on-a-gated-laplacian)
   - [Deep Unsupervised Feature Selection by Discarding Nuisance and Correlated Features](#deep-unsupervised-feature-selection-by-discarding-nuisance-and-correlated-features)
 - [Interactive Examples and Notebooks](#interactive-examples-and-notebooks)
-- [Community Engagement](#community-engagement)
 - [Usage](#hammer-usage)
 - [Installation](#electric_plug-installation)
+- [Community Engagement](question-community-engagement)
 - [Acknowledgements and References](#mag_right-acknowledgements-and-references)
 
-## Introduction to Feature Selection
+## :books: Introduction to Feature Selection
 
 ### Importance of Feature Selection in Machine Learning
                                                                                                                                                                                 
@@ -58,7 +57,7 @@ of relevant features.
 
 [Back to Top](#clipboard-table-of-content)
 
-## Supervised Feature Selection Methods                                                                                                                        
+## :books: Supervised Feature Selection Methods                                                                                                                        
 ### Overview
 
 In supervised learning, feature selection is crucial for building robust models that generalize
@@ -81,7 +80,7 @@ The proposed framework simultaneously learns either a nonlinear regression or cl
 
 [Back to Top](#clipboard-table-of-content)
 
-## Unsupervised Feature Selection Methods
+## :books: Unsupervised Feature Selection Methods
 
 ### Overview
 
@@ -106,15 +105,10 @@ score criterion and an autoencoder architecture to effectively manage feature se
 
 [Back to Top](#clipboard-table-of-content)
 
-## Interactive Examples and Notebooks
+##  Interactive Examples and Notebooks
 
 - Jupyter Notebooks with Interactive Feature Selection Demonstrations
-- Web-Based Applications for Exploring Feature Selection Techniques
 
-## Community Engagement
-
-- Discussion Forums for Knowledge Sharing and Q&A Sessions
-- Collaborative Projects and Contributions from Users
 
 ## :hammer: Usage
 
@@ -123,6 +117,10 @@ score criterion and an autoencoder architecture to effectively manage feature se
 ## :electric_plug: Installation
 
 [Step-by-step instructions for setting up the necessary environment to use the resources provided by the learning hub, including any required software, libraries, or datasets.]
+
+## :question: Community Engagement
+
+- Discussion Forums for Knowledge Sharing and Q&A Sessions
 
 ## :mag_right: Acknowledgements and References
 
