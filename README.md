@@ -11,7 +11,7 @@ Feature selection is a critical aspect of machine learning and data analysis, en
 - [Introduction to Feature Selection](#introduction-to-feature-selection)
 - [Supervised Feature Selection Methods](#supervised-feature-selection-methods)
 - [Unsupervised Feature Selection Methods](#unsupervised-feature-selection-methods)
-- [Interactive Examples and Demos](#interactive-examples-and-demos)
+- [Interactive Examples and Notebooks](#interactive-examples-and-notebooks)
 - [Community Engagement](#community-engagement)
 - [Usage](#hammer-usage)
 - [Installation](#electric_plug-installation)
@@ -32,7 +32,7 @@ Feature selection is a critical aspect of machine learning and data analysis, en
 - Differentiable Unsupervised Feature Selection based on a Gated Laplacian
 - Deep Unsupervised Feature Selection by Discarding Nuisance and Correlated Features
 
-## Interactive Examples and Demos
+## Interactive Examples and Notebooks
 
 - Jupyter Notebooks with Interactive Feature Selection Demonstrations
 - Web-Based Applications for Exploring Feature Selection Techniques
