@@ -20,7 +20,7 @@ Feature selection is a critical aspect of machine learning and data analysis, en
   - [Key Approaches and Algorithms](#key-approaches-and-algorithms-1)
   - [Differentiable Unsupervised Feature Selection based on a Gated Laplacian](#differentiable-unsupervised-feature-selection-based-on-a-gated-laplacian)
   - [Deep Unsupervised Feature Selection by Discarding Nuisance and Correlated Features](#deep-unsupervised-feature-selection-by-discarding-nuisance-and-correlated-features)
-- [Interactive Examples and Notebooks](#interactive-examples-and-notebooks)
+- [Interactive Examples and Notebooks](#chart_with_upwards_trend-interactive-examples-and-notebooks)
 - [Usage](#hammer-usage)
 - [Installation](#electric_plug-installation)
 - [Community Engagement](question-community-engagement)
@@ -105,7 +105,7 @@ score criterion and an autoencoder architecture to effectively manage feature se
 
 [Back to Top](#clipboard-table-of-content)
 
-##  Interactive Examples and Notebooks
+## :chart_with_upwards_trend: Interactive Examples and Notebooks
 
 - Jupyter Notebooks with Interactive Feature Selection Demonstrations
 
