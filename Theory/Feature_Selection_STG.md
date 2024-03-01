@@ -3,7 +3,26 @@ Feature selection problems have been extensively
 studied in the setting of linear estimation (e.g. LASSO), but less emphasis has been placed on feature selection for non-linear functions.
 This study introduces a novel feature selection method for neural network estimation, employing a probabilistic relaxation of the `0 norm to identify key features. Our approach, utilizing a continuous approximation of the Bernoulli distribution, enables simultaneous learning of nonlinear regression or classification functions, while identifying and utilizing only a limited subset of relevant features, through gradient descent.
 
+## Probabilistic Feature Selection Using Bernoulli Distribution
+In probabilistic feature selection We employ Bernoulli gates for each input feature of the neural network, which are represented by a random vector with entries that follow a Bernoulli distribution. The probability that the gate for a particular feature is active is denoted by π_d, which transforms the combinatorial problem of feature selection into an optimization problem over these probabilities.
 
+<p align="center">
+  <img src="Prob_Feature_Selection_fig2.png" alt="Probabilistic_Feature_Selection" width="500"/>
+</p>
+
+
+However, directly optimizing this probabilistic model is difficult due to the discrete nature of Bernoulli variables, which can introduce high variance in the optimization process. To mitigate this issue, we propose a Gaussian-based continuous relaxation of the Bernoulli variables, which we term stochastic gates (STGs). These gates can be visualized as clipped Gaussian distributions. The STG is defined as z_d = max(0, min(1, µ_d + ε_d)), where ε_d is a noise term sampled from a Gaussian distribution, and µ_d is the gate's mean parameter.
+
+<p align="center">
+  <img src="Gauusian_relax_fig3.png" alt="Gauusian_Relaxation" width="700"/>
+</p>
+
+
+The core of our method lies in minimizing the empirical risk, which now includes a regularization term for the STGs. This is where our method shines, providing a fully differentiable objective that allows for the efficient application of gradient descent methods. The regularization term is the sum of the probabilities that each gate is active, which can be computed using the standard Gaussian cumulative distribution function (CDF), Φ.
+
+During optimization, we update the mean parameters of the STGs, µ_d, using stochastic gradient descent. This process is detailed in Figure 2, providing an algorithmic view of the steps involved.
+
+After training, we can remove the randomness by setting the gate values based on their mean parameters to finalize the feature selection. This is shown in Figure 3, which depicts the deterministic gating after the training phase. Our experimental results demonstrate that this method not only achieves high accuracy but also consistently identifies informative features, outperforming existing state-of-the-art methods.
 
 
 
