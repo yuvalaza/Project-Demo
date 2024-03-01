@@ -1,7 +1,7 @@
-name: Home
-link: /readme/
-name: Theory
-link: /theory_readme/
-dropdown: 
-  name: Page 2
-  link: /page-2/
+- name: Home
+  link: /README/
+- name: Theory
+  link: /Theory/intro/
+  dropdown:
+    - name: Feature Selection Using STG
+      link: /Theory/Feature_Selection_STG/
