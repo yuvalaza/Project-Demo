@@ -74,9 +74,7 @@ The new procedure is based on probabilistic relaxation of
 the l0 norm of features, or the count of the number of selected features.
 The proposed framework simultaneously learns either a nonlinear regression or classification function while selecting a small subset of features.
 
-|![stg_image](stg_figure1_left.png)|
-|:--:|
-|Top: Each stochastic gate z_d is drawn from the STG approximation of the Bernoulli distribution (shown as the blue histogram on the right). Specifically, z_d is obtained by applying the hard-sigmoid function to a mean-shifted Gaussian random variable. Bottom: The z_d stochastic gate is attached to the x_d input feature, where the trainable parameter µ_d controls the probability of the gate being active|
+For a more detailed explanation [STG theory document](Theory/Feature_Selection_STG.md)
 
 [Back to Top](#clipboard-table-of-content)
 
