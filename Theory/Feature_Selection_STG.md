@@ -17,17 +17,10 @@ However, directly optimizing this probabilistic model is difficult due to the di
   <img src="Gauusian_relax_fig3.png" alt="Gauusian_Relaxation" width="700"/>
 </p>
 
+Now The regularization term is the sum of the probabilities that each gate is active, which can be computed using the standard Gaussian cumulative distribution function (CDF), Φ.
 
-The core of our method lies in minimizing the empirical risk, which now includes a regularization term for the STGs. This is where our method shines, providing a fully differentiable objective that allows for the efficient application of gradient descent methods. The regularization term is the sum of the probabilities that each gate is active, which can be computed using the standard Gaussian cumulative distribution function (CDF), Φ.
-
-During optimization, we update the mean parameters of the STGs, µ_d, using stochastic gradient descent. This process is detailed in Figure 2, providing an algorithmic view of the steps involved.
-
-After training, we can remove the randomness by setting the gate values based on their mean parameters to finalize the feature selection. This is shown in Figure 3, which depicts the deterministic gating after the training phase. Our experimental results demonstrate that this method not only achieves high accuracy but also consistently identifies informative features, outperforming existing state-of-the-art methods.
-
-
-
-
-
+To optimize the feature selection model, we employ a Monte Carlo sampling-based gradient estimator. The gradient of the loss function concerning the gate parameters µ is combined with the regularization term's derivative to update our model parameters efficiently using Stochastic Gradient Descent (SGD).
+After training, we can remove the randomness by setting the gate values based on their mean parameters to finalize the feature selection.
 
 <p align="center">
   <img src="stg_figure1_left.png" alt="stg_image" width="500"/>
