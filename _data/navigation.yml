@@ -1,7 +1,7 @@
 name: Home
-  link: /readme/
-- name: Theory
-  link: /theory_readme/
-  dropdown: 
-    - name: Page 2
-      link: /page-2/
+link: /readme/
+name: Theory
+link: /theory_readme/
+dropdown: 
+  name: Page 2
+  link: /page-2/
