@@ -1,9 +1,9 @@
-### Feature Selection Using Stochastic Gates (STG)
+## Feature Selection Using Stochastic Gates (STG)
 Feature selection problems have been extensively
 studied in the setting of linear estimation (e.g. LASSO), but less emphasis has been placed on feature selection for non-linear functions.
 This study introduces a novel feature selection method for neural network estimation, employing a probabilistic relaxation of the `0 norm to identify key features. Our approach, utilizing a continuous approximation of the Bernoulli distribution, enables simultaneous learning of nonlinear regression or classification functions, while identifying and utilizing only a limited subset of relevant features, through gradient descent.
 
-## Probabilistic Feature Selection Using Bernoulli Distribution
+### Probabilistic Feature Selection Using Bernoulli Distribution
 In probabilistic feature selection We employ Bernoulli gates for each input feature of the neural network, which are represented by a random vector with entries that follow a Bernoulli distribution. The probability that the gate for a particular feature is active is denoted by π_d, which transforms the combinatorial problem of feature selection into an optimization problem over these probabilities.
 
 <p align="center">
