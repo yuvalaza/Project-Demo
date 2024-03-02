@@ -1,11 +1,25 @@
-- label: Theory Menu
+- label: Supervised Feature Selection 
   items:
-    - name: Home
-      link: /
-    - name: Theory
+    - name: Overview
       link: /Theory/
-      items:
-        - name: Introduction
-          link: /Theory/intro/
-        - name: Feature Selection Using STG
-          link: /Theory/Feature_Selection_STG/
+    - name: Key Approaches and Algorithms
+      link: /Theory/
+    - name: Feature Selection Using STG
+      link: /Theory/Feature_Selection_STG/
+
+
+- label: Unsupervised Feature Selection 
+  items:
+    - name: Overview
+      link: /Theory/
+    - name: Key Approaches and Algorithms
+      link: /Theory/
+    - name: Differentiable Unsupervised Feature Selection based on a Gated Laplacian
+      link: /Theory/Feature_Selection_STG/
+    - name: Deep Unsupervised Feature Selection by Discarding Nuisance and Correlated Features
+      link: /Theory/Feature_Selection_STG/
+    
+
+  
+   
+  
