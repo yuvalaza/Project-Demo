@@ -2,6 +2,7 @@
 layout: page
 title: Theory
 permalink: /Theory/
+menubar: theory_menu
 ---
 
 ## Introduction to Feature Selection
