@@ -1,3 +1,5 @@
+- name: Home
+  link: /index/
 - name: Theory
   link: /Theory/
   dropdown:
