@@ -1,6 +1,7 @@
 ---  
 layout: page
-title: Home   .
+title: Welcome to Feature Selection With DNN Learning Hub
+subtitle: Your central hub for learning and mastering feature selection techniques in Deep Learning
 permalink: /  
 ---
 
