@@ -3,3 +3,8 @@
   dropdown:
     - name: Feature Selection Using STG
       link: /Theory/Feature_Selection_STG/
+- name: Code
+  link: /Theory/
+- name: Docs
+  link: /Theory/
+  
