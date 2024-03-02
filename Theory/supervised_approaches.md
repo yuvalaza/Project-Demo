@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Supervised Feature Selection
+title: Key Approaches and Algorithms
 permalink: /Theory/supervised_approaches/
 menubar: theory_menu
 ---
