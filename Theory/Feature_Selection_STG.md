@@ -1,3 +1,8 @@
+---
+layout: page
+title: Feature Selection Using STG
+---
+
 ## Feature Selection Using Stochastic Gates (STG)
 Feature selection problems have been extensively
 studied in the setting of linear estimation (e.g. LASSO), but less emphasis has been placed on feature selection for non-linear functions.
