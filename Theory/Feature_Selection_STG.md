@@ -13,9 +13,7 @@ This study introduces a novel feature selection method for neural network estima
 ### Probabilistic Feature Selection Using Bernoulli Distribution
 In probabilistic feature selection We employ Bernoulli gates for each input feature of the neural network, which are represented by a random vector with entries that follow a Bernoulli distribution. The probability that the gate for a particular feature is active is denoted by π_d, which transforms the combinatorial problem of feature selection into an optimization problem over these probabilities.
 
-<p align="center">
-  <img src="/Theory/Prob_Feature_Selection_fig2.png" alt="Probabilistic_Feature_Selection" width="500"/>
-</p>
+![Probabilistic Feature Selection](/Theory/Prob_Feature_Selection_fig2.png)
 
 
 However, directly optimizing this probabilistic model is difficult due to the discrete nature of Bernoulli variables, which can introduce high variance in the optimization process. 
