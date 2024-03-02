@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Feature Selection Using STG
+permalink: /Theory/Feature_Selection_STG/
 ---
 
 ## Feature Selection Using Stochastic Gates (STG)
