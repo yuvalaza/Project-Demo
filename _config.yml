@@ -1,7 +1,2 @@
 remote_theme: chrisrhymes/bulma-clean-theme
 
-defaults:
-  - scope:
-      path: "/img/"
-    values:
-      image: true
