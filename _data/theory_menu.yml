@@ -1,10 +1,11 @@
-- label: Theory Topics
+- label: Theory Menu
   items:
-    - name: Introduction to Feature Selection
-      link: /Theory/intro/
-    - name: Advanced Topics
-      link: /Theory/advanced-topics/
-    - name: Feature Selection Using STG
-      link: /Theory/Feature_Selection_STG/
-
-
+    - name: Home
+      link: /
+    - name: Theory
+      link: /Theory/
+      items:
+        - name: Introduction
+          link: /Theory/intro/
+        - name: Feature Selection Using STG
+          link: /Theory/Feature_Selection_STG/
