@@ -37,3 +37,6 @@ Eigenvectors corresponding to smaller eigenvalues of the graph Laplacian are ass
 
 In summary, features with the smallest Laplacian Scores are selected as they are most indicative of the underlying structure of the data.
 
+<p align="center">
+  <img src="/img/ls_fig4.png" alt="LP-Score" width="500"/>
+</p>
