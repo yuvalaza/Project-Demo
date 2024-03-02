@@ -1,10 +1,10 @@
-## Introduction to Feature Selection
-
 ---
 layout: page
 title: Theory
 permalink: /Theory/
 ---
+
+## Introduction to Feature Selection
 
 ### Importance of Feature Selection in Machine Learning
                                                                                                                                                                                 
