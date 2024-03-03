@@ -1,7 +1,7 @@
 remote_theme: chrisrhymes/bulma-clean-theme
 defaults:
   - scope:
-      path: "/docs/assets/img/"
+      path: "/docs/assets/image/"
     values:
       image: true
 
