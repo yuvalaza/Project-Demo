@@ -1,11 +1,16 @@
 ---
 layout: page
 title: Feature Selection Using STG
+subtitle: Y. Yamada, O. Lindenbaum, S. Negahban, Y. Kluger, ICML 2020
 permalink: /Theory/Feature_Selection_STG/
 menubar: theory_menu
 ---
 
 ## Feature Selection Using Stochastic Gates (STG)
+
+[Paper](https://arxiv.org/abs/1810.04247)
+
+
 Feature selection problems have been extensively
 studied in the setting of linear estimation (e.g. LASSO), but less emphasis has been placed on feature selection for non-linear functions.
 This study introduces a novel feature selection method for neural network estimation, employing a probabilistic relaxation of the 0 norm to identify key features. Our approach, utilizing a continuous approximation of the Bernoulli distribution, enables simultaneous learning of nonlinear regression or classification functions, while identifying and utilizing only a limited subset of relevant features, through gradient descent.
