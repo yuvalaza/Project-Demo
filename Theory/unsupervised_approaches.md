@@ -26,7 +26,7 @@ $$L_{\text{un}} = D - K$$
 where $D$ is a diagonal matrix with entries $D_{i,i} = \sum_{j=1}^{n} K_{i,j}$, representing the degree of each node in the graph.
 
 <p align="center">
-  <img src="/Project-Demo/docs/assets/image/graph_laplacian.pmg" alt="Gauusian_Relaxation" width="700"/>
+  <img src="/Project-Demo/docs/assets/image/graph_laplacian.png" alt="Graph_Laplacian" width="700"/>
 </p>
 
 
