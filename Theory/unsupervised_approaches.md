@@ -25,6 +25,11 @@ $$L_{\text{un}} = D - K$$
 
 where $D$ is a diagonal matrix with entries $D_{i,i} = \sum_{j=1}^{n} K_{i,j}$, representing the degree of each node in the graph.
 
+<p align="center">
+  <img src="/Project-Demo/docs/assets/image/graph_laplacian.pmg" alt="Gauusian_Relaxation" width="700"/>
+</p>
+
+
 #### Laplacian Score
 
 The Laplacian Score (LS) is an unsupervised feature selection metric that leverages the eigenvectors of the graph Laplacian matrix. Specifically, the score for a feature #f$ is calculated by the quadratic form:
@@ -38,5 +43,5 @@ Eigenvectors corresponding to smaller eigenvalues of the graph Laplacian are ass
 In summary, features with the smallest Laplacian Scores are selected as they are most indicative of the underlying structure of the data.
 
 <p align="center">
-  <img src="/img/ls_fig4.png" alt="LP-Score" width="500"/>
+  <img src="/Project-Demo/docs/assets/image/ls_fig4.png" alt="LP-Score" width="500"/>
 </p>
