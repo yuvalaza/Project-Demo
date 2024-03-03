@@ -11,10 +11,12 @@ menubar: theory_menu
 
     The LASSO (Least Absolute Shrinkage and Selection Operator) is renowned for its use of the L1 regularization term, which is mathematically denoted as:
 
-    $$\lambda \|\beta\|_1 \$$
+                                                              λ * || β ||
 
-    Here, $\|\beta\|_1$ represents the L1 norm of the coefficients vector $\beta$. The L1 regularization term is the sum of the absolute values of the coefficients multiplied by a tuning parameter $\lambda$ .
+    Here, || β || represents the L1 norm of the coefficients vector β. The L1 regularization term is the sum of the absolute values of the coefficients multiplied by a tuning parameter λ :
 
-    The parameter $\lambda$ is crucial. A larger λ value increases the amount of regularization, leading to more coefficients being shrinked to zero, effectively eliminating the influence of certain features in the model. This characteristic can provide interpretable models while effectively managing the risk of overfitting.
+    L₁ = λ * (|β₁| + |β₂| + ... + |βₚ|)
+
+    The parameter λ is crucial. A larger λ value increases the amount of regularization, leading to more coefficients being shrinked to zero, effectively eliminating the influence of certain features in the model. This characteristic can provide interpretable models while effectively managing the risk of overfitting.
 
     It's important to note that LASSO's regularization is specifically designed for linear models. 
